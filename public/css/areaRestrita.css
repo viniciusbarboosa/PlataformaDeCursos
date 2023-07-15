@@ -1,0 +1,165 @@
+#description_member_dt{
+  font-size: 10px !important;
+}
+
+#dt_course_wrapper .dataTables_length select,
+#dt_course_wrapper .dataTables_previous,
+#dt_course_wrapper .dataTables_next {
+  font-size: 14px !important;
+  padding: 3px 20px !important;
+  margin:10px;
+}
+
+/*AJEITA ESSA PARTE DPS PRO CSS SAIR DO BLACK ATRAS DO N DA PAGINA*/
+/*
+#dt_course_paginate *,
+#dt_course_paginate {
+  all: unset !important;
+}
+*/
+#dt_course_paginate {
+    text-align: right !important;
+  }
+  
+  #dt_course_paginate .pagination {
+    display: flex !important;
+    justify-content: flex-end !important;
+  }
+  
+  #dt_course_paginate .pagination li {
+    display: inline-block !important;
+    margin-right: 10px !important;
+    margin-top: 10px !important;
+  }
+  
+  #dt_course_paginate .pagination li:nth-child(2) a {
+    background-color: blue !important;
+    color: white !important;
+    padding: 10px 15px !important;
+  }
+
+  @media (max-width: 768px) {
+    #dt_course_paginate {
+      text-align: center !important;
+    }
+    
+    #dt_course_paginate .pagination {
+      justify-content: center !important;
+    }
+    
+    #dt_course_paginate .pagination li {
+      display: block !important;
+      margin-right: 0 !important;
+      margin-top: 10px !important;
+    }
+  }
+
+/*EQUIPE*/
+#dt_team_wrapper .dataTables_length select,
+#dt_team_wrapper .dataTables_previous,
+#dt_team_wrapper .dataTables_next {
+  font-size: 14px !important;
+  padding: 3px 20px !important;
+  margin:10px;
+}
+
+/*AJEITA ESSA PARTE DPS PRO CSS SAIR DO BLACK ATRAS DO N DA PAGINA*/
+/*
+
+#dt_team_paginate *,
+#dt_team_paginate {
+  all: unset !important;
+}
+*/
+#dt_team_paginate {
+    text-align: right !important;
+  }
+  
+  #dt_team_paginate .pagination {
+    display: flex !important;
+    justify-content: flex-end !important;
+  }
+  
+  #dt_team_paginate .pagination li {
+    display: inline-block !important;
+    margin-right: 10px !important;
+    margin-top: 10px !important;
+  }
+  
+  #dt_team_paginate .pagination li:nth-child(2) a {
+    background-color: blue !important;
+    color: white !important;
+    padding: 10px 15px !important;
+  }
+
+  @media (max-width: 768px) {
+    #dt_team_paginate {
+      text-align: center !important;
+    }
+    
+    #dt_team_paginate .pagination {
+      justify-content: center !important;
+    }
+    
+    #dt_team_paginate .pagination li {
+      display: block !important;
+      margin-right: 0 !important;
+      margin-top: 10px !important;
+    }
+  }
+
+  /*USUARIOS*/
+  
+#dt_users_wrapper .dataTables_length select,
+#dt_users_wrapper .dataTables_previous,
+#dt_users_wrapper .dataTables_next {
+  font-size: 14px !important;
+  padding: 3px 20px !important;
+  margin:10px;
+}
+
+/*AJEITA ESSA PARTE DPS PRO CSS SAIR DO BLACK ATRAS DO N DA PAGINA*/
+/*
+#dt_users_paginate *,
+#dt_users_paginate {
+  all: unset !important;
+}
+*/
+#dt_users_paginate {
+    text-align: right !important;
+  }
+  
+  #dt_users_paginate .pagination {
+    display: flex !important;
+    justify-content: flex-end !important;
+  }
+  
+  #dt_users_paginate .pagination li {
+    display: inline-block !important;
+    margin-right: 10px !important;
+    margin-top: 10px !important;
+  }
+  
+  #dt_users_paginate .pagination li:nth-child(2) a {
+    background-color: blue !important;
+    color: white !important;
+    padding: 10px 15px !important;
+  }
+
+  @media (max-width: 768px) {
+    #dt_users_paginate {
+      text-align: center !important;
+    }
+    
+    #dt_users_paginate .pagination {
+      justify-content: center !important;
+    }
+    
+    #dt_users_paginate .pagination li {
+      display: block !important;
+      margin-right: 0 !important;
+      margin-top: 10px !important;
+    }
+  }
+
+ 
